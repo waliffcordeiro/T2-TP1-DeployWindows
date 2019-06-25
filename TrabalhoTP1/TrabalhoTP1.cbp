@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Trabalho-TP1-master" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<MakeCommands>
+			<Build command="$make -f $makefile" />
+			<CompileFile command="$make -f $makefile $file" />
+			<Clean command="$make -f $makefile clean" />
+			<DistClean command="$make -f $makefile distclean$target" />
+			<AskRebuildNeeded command="$make -q -f $makefile" />
+			<SilentBuild command="$make -f $makefile &gt; $(CMD_NULL)" />
+		</MakeCommands>
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Trabalho-TP1-master" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile" />
+					<SilentBuild command="$make -f $makefile &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Builder.h" />
+		<Unit filename="include/Dominios.h" />
+		<Unit filename="include/Entidades.h" />
+		<Unit filename="include/Interfaces_Apresentacao.h" />
+		<Unit filename="include/Interfaces_Servicos.h" />
+		<Unit filename="include/Model.h" />
+		<Unit filename="include/ModelAutenticacao.h" />
+		<Unit filename="include/ModelEventos.h" />
+		<Unit filename="include/ModelUsuario.h" />
+		<Unit filename="include/ModelVendas.h" />
+		<Unit filename="include/controladora.h" />
+		<Unit filename="include/viewAutenticacao.h" />
+		<Unit filename="include/viewEventos.h" />
+		<Unit filename="include/viewUsuario.h" />
+		<Unit filename="include/viewVendas.h" />
+		<Unit filename="source/Builder.cpp" />
+		<Unit filename="source/Dominios.cpp" />
+		<Unit filename="source/Entidades.cpp" />
+		<Unit filename="source/Model.cpp" />
+		<Unit filename="source/ModelAutenticacao.cpp" />
+		<Unit filename="source/ModelEventos.cpp" />
+		<Unit filename="source/ModelUsuario.cpp" />
+		<Unit filename="source/ModelVendas.cpp" />
+		<Unit filename="source/controladora.cpp" />
+		<Unit filename="source/main.cpp" />
+		<Unit filename="source/viewAutenticacao.cpp" />
+		<Unit filename="source/viewEventos.cpp" />
+		<Unit filename="source/viewUsuario.cpp" />
+		<Unit filename="source/viewVendas.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
