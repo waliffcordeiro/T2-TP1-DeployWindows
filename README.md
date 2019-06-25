@@ -9,7 +9,12 @@ Waliff Cordeiro Bandeira 17/0115810
 
 # Atividades
 
+Linux: https://github.com/PedroAugustoRamalhoDuarte/Trabalho-TP1
+Windows: https://github.com/waliffcordeiro/T2-TP1-DeployWindows
+
+
 A camada de apresentação foi codificada em QT com auxilio da IDE QtCreator, e a camada de serviço em sqlite3
+Os códigos estão dentro da pasta Trabalho-TP1
 
 1- Codificar as classes de camada da apresentação
 
@@ -29,8 +34,10 @@ A camada de apresentação foi codificada em QT com auxilio da IDE QtCreator, e 
 * A model.h serve em uma herença para reaproveitar alguns métodos
      
 4- Elaborar teste fumaça (smoke test)
-* Encontra na raiz com o nome smoketest.pdf
+* Encontra na raiz com o nome Smoke Test.pdf
 
 5 - Código integrado funciona corretamente segundo o teste fumaça (smoke test).
-* Caso executável basta clicar no executavel pelo explorador de arquivo
-* Caso compilar, basta clicar no run do codeblocks    
+* Não é possível compilar o código pois para enviar o QT de forma que fosse viável para
+compilar seria necessário enviar mais de 5 GB de libs e dlls. Para tanto enviamos um executável, 
+será possível acessá-lo via codeblocks (clicando em run (setinha verde)). Caso o programa não rode 
+via run você poderá executá-lo indo no diretório Executavel e executando o programa SistemaIngresso.exe 

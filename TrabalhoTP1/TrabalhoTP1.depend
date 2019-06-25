@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1561407440 source:c:\users\waliff cordeiro\desktop\trabalhotp1\trabalhotp1\source\dominios.cpp
+	"../include/Dominios.h"
+
+1561407438 c:\users\waliff cordeiro\desktop\trabalhotp1\trabalhotp1\include\dominios.h
+	<stdexcept>
+	<iostream>
+	<string>
+	<cstring>
+	<cstdlib>
+	<cctype>
+	<list>
+
+1561407440 source:c:\users\waliff cordeiro\desktop\trabalhotp1\trabalhotp1\source\entidades.cpp
+	"../include/Entidades.h"
+
+1561407438 c:\users\waliff cordeiro\desktop\trabalhotp1\trabalhotp1\include\entidades.h
+	"Dominios.h"
+

@@ -37,7 +37,7 @@ SUBTARGETS    =  \
 release: FORCE
 	$(MAKE) -f $(MAKEFILE).Release
 release-make_first: FORCE
-	$(MAKE) -f $(MAKEFILE).Release 
+	$(MAKE) -f $(MAKEFILE).Release
 release-all: FORCE
 	$(MAKE) -f $(MAKEFILE).Release all
 release-clean: FORCE
@@ -51,7 +51,7 @@ release-uninstall: FORCE
 debug: FORCE
 	$(MAKE) -f $(MAKEFILE).Debug
 debug-make_first: FORCE
-	$(MAKE) -f $(MAKEFILE).Debug 
+	$(MAKE) -f $(MAKEFILE).Debug
 debug-all: FORCE
 	$(MAKE) -f $(MAKEFILE).Debug all
 debug-clean: FORCE
@@ -237,7 +237,7 @@ Makefile: TrabalhoTP1.pro C:/Qt/5.13.0/mingw73_32/mkspecs/win32-g++/qmake.conf C
 		C:/Qt/5.13.0/mingw73_32/lib/Qt5Gui.prl \
 		C:/Qt/5.13.0/mingw73_32/lib/Qt5Core.prl \
 		C:/Qt/5.13.0/mingw73_32/lib/qtmain.prl
-	$(QMAKE) -o Makefile TrabalhoTP1.pro -spec win32-g++ "CONFIG+=qtquickcompiler"
+		$(QMAKE) -o Makefile TrabalhoTP1.pro -spec win32-g++ "CONFIG+=qtquickcompiler"
 C:/Qt/5.13.0/mingw73_32/mkspecs/features/spec_pre.prf:
 C:/Qt/5.13.0/mingw73_32/mkspecs/qdevice.pri:
 C:/Qt/5.13.0/mingw73_32/mkspecs/features/device_config.prf:
