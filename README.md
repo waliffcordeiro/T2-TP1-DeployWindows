@@ -9,7 +9,9 @@ Waliff Cordeiro Bandeira 17/0115810
 
 # Atividades
 
-Linux: https://github.com/PedroAugustoRamalhoDuarte/Trabalho-TP1
+*O programa não pode ser compilado, os motivos são explicados no tópico 5
+
+Linux: https://github.com/PedroAugustoRamalhoDuarte/Trabalho-TP1<br>
 Windows: https://github.com/waliffcordeiro/T2-TP1-DeployWindows
 
 
